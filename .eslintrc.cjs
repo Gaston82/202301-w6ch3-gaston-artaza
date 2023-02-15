@@ -14,5 +14,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
+  },
 };
